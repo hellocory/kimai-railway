@@ -122,7 +122,7 @@ RUN apk add --no-cache \
         tzdata && \
     touch /use_fpm
 
-EXPOSE 9000
+EXPOSE 8080
 
 HEALTHCHECK --interval=20s --timeout=10s --retries=3 \
     CMD \
